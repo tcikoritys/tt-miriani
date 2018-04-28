@@ -2366,100 +2366,100 @@ play General/Socials/cackle.wav
 #action {You cover your mouth and yawn*} {#if {"$socials" == "true"}{play General/Socials/yawn*2.wav}
 #action {* covers * mouth and yawns*} {#if {"$socials" == "true"}{play General/Socials/yawn*2.wav}
 #action {* yawns suddenly and collapses to the ground, asleep*} {#if {"$socials" == "true"}{play General/Socials/collapse3.wav}
-#action {you open a * refrigerator} {play {c:/program filess/vipmud/miriani/sounds/general/misc/fridgeopen.wav  AnyCase
-#action {you close a * refrigerator} {play {c:/program files/vipmud/miriani/sounds/general/misc/fridgeclose.wav  AnyCase
-#action {* and finally vomit*} {#if {"$socials" == "true"}{play {c:/program files/vipmud/miriani/sounds/General/Socials/vomit.wav}
-#action {you turn*sink on*} {play {c:/program files/vipmud/miriani/sounds/general/misc/fausset.wav  AnyCase
-#action {you begin washing*} {play {c:/program files/vipmud/miriani/sounds/general/misc/washinghands.wav  AnyCase
-#action {You slide open the shower door and enter in to*} {play {c:/program files/vipmud/miriani/sounds/general/misc/showerdoor.wav  AnyCase
-#action {*water continues to spray down on you*} {play {c:/program files/vipmud/miriani/sounds/general/misc/shower.wav  AnyCase
-#action {*water continues to spray down on you*} {play {c:/program files/vipmud/miriani/sounds/general/misc/shower.wav  AnyCase
-#action {you spank * while squ*} {#if {"$socials" == "true"}{play {c:/program files/vipmud/miriani/sounds/General/Socials/spank.wav}
-#action {once finished, you clean yourself and*} {play {c:/program files/vipmud/miriani/sounds/general/misc/loudtoiletflush.wav} @vol2}  AnyCase
-#action {a * washing machine begins filling with water as the*} {play {c:/program files/vipmud/miriani/sounds/general/misc/washingmachine.wav} @vol2}  AnyCase
-#action {a * dryer warms up and*} {play {c:/program files/vipmud/miriani/sounds/general/misc/clothesdryer.wav  AnyCase
-#action {You close the lid on*waffle iron and wait patiently as it begins*} {play {c:/program files/vipmud/miriani/sounds/general/misc/waffleiron.wav  AnyCase
+#action {you open a * refrigerator} {play general/misc/fridgeopen.wav  AnyCase
+#action {you close a * refrigerator} {play general/misc/fridgeclose.wav  AnyCase
+#action {* and finally vomit*} {#if {"$socials" == "true"}{play General/Socials/vomit.wav}
+#action {you turn*sink on*} {play general/misc/fausset.wav  AnyCase
+#action {you begin washing*} {play general/misc/washinghands.wav  AnyCase
+#action {You slide open the shower door and enter in to*} {play general/misc/showerdoor.wav  AnyCase
+#action {*water continues to spray down on you*} {play general/misc/shower.wav  AnyCase
+#action {*water continues to spray down on you*} {play general/misc/shower.wav  AnyCase
+#action {you spank * while squ*} {#if {"$socials" == "true"}{play General/Socials/spank.wav}
+#action {once finished, you clean yourself and*} {play general/misc/loudtoiletflush.wav} @vol2}  AnyCase
+#action {a * washing machine begins filling with water as the*} {play general/misc/washingmachine.wav} @vol2}  AnyCase
+#action {a * dryer warms up and*} {play general/misc/clothesdryer.wav  AnyCase
+#action {You close the lid on*waffle iron and wait patiently as it begins*} {play general/misc/waffleiron.wav  AnyCase
 
-#action {you carefully light a*} {play {c:/program files/vipmud/miriani/sounds/general/misc/candle.wav  AnyCase
-#action {* starts crying loudly*} {#if {"$socials" == "true"}{play {c:/program files/vipmud/miriani/sounds/baby/babycry*4.wav}
-#action {*coos} {#if {"$socials" == "true"}{play {c:/program files/vipmud/miriani/sounds/baby/babycoo.wav}
-#action {*babbles*} {#if {"$socials" == "true"}{play {c:/program files/vipmud/miriani/sounds/baby/babytalk*2.wav}
-#action {you jump in the pool and begin to swim*} {play {c:/program files/vipmud/miriani/sounds/pool/enterpool.wav} @vol2}  AnyCase
-#action {you fall to the water with a splash*} {play {c:/program files/vipmud/miriani/sounds/pool/splash1.wav} @vol2}  AnyCase
-#action {you take a deep breath, dive underwater*} {play {c:/program files/vipmud/miriani/sounds/pool/underwater.wav} @vol2}  AnyCase
-#action {You emerge from underwater and take a deep breath*} {play {c:/program files/vipmud/miriani/sounds/pool/splash1.wav} @vol2}  AnyCase
-#action {With a strong jump, you dive into the water with a big splash*} {play {c:/program files/vipmud/miriani/sounds/pool/splash2.wav} @vol2}  AnyCase
-#action {you push * into the water*} {play {c:/program files/vipmud/miriani/sounds/pool/enterpool.wav} @vol2}  AnyCase
-#action {* pushes you into the water*} {play {c:/program files/vipmud/miriani/sounds/pool/enterpool.wav} @vol2}  AnyCase
-#action {*crashes to the water with a splash*} {play {c:/program files/vipmud/miriani/sounds/pool/splash1.wav} @vol2}  AnyCase
-#action {*takes a deep breath and dives underwater as he fades out of view*} {play {c:/program files/vipmud/miriani/sounds/pool/splash1.wav} @vol2}  AnyCase
-#action {*emerges from under the water and takes a deep breath*} {play {c:/program files/vipmud/miriani/sounds/pool/splash2.wav} @vol2}  AnyCase
-#action {*a * diving toy into the pool and it sinks to the bottom*} {play {c:/program files/vipmud/miriani/sounds/pool/splash3.wav} @vol2}  AnyCase
-#action {*deep into the pool to fetch a * diving toy*} {play {c:/program files/vipmud/miriani/sounds/pool/underwater.wav} @vol2}  AnyCase
-#action {*jumps off the board and hits the water with a splash*} {play {c:/program files/vipmud/miriani/sounds/pool/splash2.wav} @vol2}  AnyCase
-#action {You neatly shuffle a deck of classic Assault cards and set them down as you wait for the second player*} {play {c:/program files/vipmud/miriani/sounds/general/misc/cardshuffle.wav} @vol2}  AnyCase
-#action {*neatly stacks a deck of classic Assault cards and waits patiently for another player to arrive*} {play {c:/program files/vipmud/miriani/sounds/general/misc/cardshuffle.wav} @vol2}  AnyCase
-#action {You wind up and send a ball down the lane*} {play {c:/program files/vipmud/miriani/sounds/general/misc/skeeballrolls.wav  AnyCase
-#action {Game over.  Your final score is*} {play {c:/program files/vipmud/miriani/sounds/general/misc/skeeballscore.wav} @vol2}  AnyCase
-#action {You press a button on * blender and watch as the contents are blended together into a delicious concoction of*} {play {c:/program files/vipmud/miriani/sounds/general/misc/blender.wav  AnyCase
-#action {You open * refrigerator*} {play {c:/program files/vipmud/miriani/sounds/general/misc/fridgeopen.wav} @vol2}  AnyCase
-#action {You close * refrigerator.} {play {c:/program files/vipmud/miriani/sounds/general/misc/fridgeclose.wav} @vol2}  AnyCase
-#action {*into an empty*} {play {c:/program files/vipmud/miriani/sounds/general/misc/pouringliquid.wav} @vol2}  AnyCase
-#action {you clink glasses with *} {play {c:/program files/vipmud/miriani/sounds/general/misc/wineglass.wav} @vol2}  AnyCase
-#action {* clinks glasses with you*} {play {c:/program files/vipmud/miriani/sounds/general/misc/wineglass.wav} @vol2}  AnyCase
-#action {Sensing adequate kindling, a bright, warm fire erupts inside*} {play {c:/program files/vipmud/miriani/sounds/general/misc/fireplace.wav  AnyCase
-#action {you open a bottle*} {play {c:/program files/vipmud/miriani/sounds/general/misc/openbottle.wav  AnyCase
-#action {You begin to feed * a sucking sound as*} {#if {"$socials" == "true"}{play {c:/program files/vipmud/miriani/sounds/baby/babyeats.wav}
-#action {*you splash *}  {play {c:/program files/vipmud/miriani/sounds/pool/splash1.wav} @vol2} AnyCase
-#action {*splashes you*}  {play {c:/program files/vipmud/miriani/sounds/pool/splash1.wav} @vol2} AnyCase
-#action {you open a * lockbox*} {play {c:/program files/vipmud/miriani/sounds/general/misc/lockboxopen.wav  AnyCase
-#action {you close a * lockbox*} {play {c:/program files/vipmud/miriani/sounds/general/misc/lockboxclose.wav  AnyCase
+#action {you carefully light a*} {play general/misc/candle.wav  AnyCase
+#action {* starts crying loudly*} {#if {"$socials" == "true"}{play baby/babycry*4.wav}
+#action {*coos} {#if {"$socials" == "true"}{play baby/babycoo.wav}
+#action {*babbles*} {#if {"$socials" == "true"}{play baby/babytalk*2.wav}
+#action {you jump in the pool and begin to swim*} {play pool/enterpool.wav} @vol2}  AnyCase
+#action {you fall to the water with a splash*} {play pool/splash1.wav} @vol2}  AnyCase
+#action {you take a deep breath, dive underwater*} {play pool/underwater.wav} @vol2}  AnyCase
+#action {You emerge from underwater and take a deep breath*} {play pool/splash1.wav} @vol2}  AnyCase
+#action {With a strong jump, you dive into the water with a big splash*} {play pool/splash2.wav} @vol2}  AnyCase
+#action {you push * into the water*} {play pool/enterpool.wav} @vol2}  AnyCase
+#action {* pushes you into the water*} {play pool/enterpool.wav} @vol2}  AnyCase
+#action {*crashes to the water with a splash*} {play pool/splash1.wav} @vol2}  AnyCase
+#action {*takes a deep breath and dives underwater as he fades out of view*} {play pool/splash1.wav} @vol2}  AnyCase
+#action {*emerges from under the water and takes a deep breath*} {play pool/splash2.wav} @vol2}  AnyCase
+#action {*a * diving toy into the pool and it sinks to the bottom*} {play pool/splash3.wav} @vol2}  AnyCase
+#action {*deep into the pool to fetch a * diving toy*} {play pool/underwater.wav} @vol2}  AnyCase
+#action {*jumps off the board and hits the water with a splash*} {play pool/splash2.wav} @vol2}  AnyCase
+#action {You neatly shuffle a deck of classic Assault cards and set them down as you wait for the second player*} {play general/misc/cardshuffle.wav} @vol2}  AnyCase
+#action {*neatly stacks a deck of classic Assault cards and waits patiently for another player to arrive*} {play general/misc/cardshuffle.wav} @vol2}  AnyCase
+#action {You wind up and send a ball down the lane*} {play general/misc/skeeballrolls.wav  AnyCase
+#action {Game over.  Your final score is*} {play general/misc/skeeballscore.wav} @vol2}  AnyCase
+#action {You press a button on * blender and watch as the contents are blended together into a delicious concoction of*} {play general/misc/blender.wav  AnyCase
+#action {You open * refrigerator*} {play general/misc/fridgeopen.wav} @vol2}  AnyCase
+#action {You close * refrigerator.} {play general/misc/fridgeclose.wav} @vol2}  AnyCase
+#action {*into an empty*} {play general/misc/pouringliquid.wav} @vol2}  AnyCase
+#action {you clink glasses with *} {play general/misc/wineglass.wav} @vol2}  AnyCase
+#action {* clinks glasses with you*} {play general/misc/wineglass.wav} @vol2}  AnyCase
+#action {Sensing adequate kindling, a bright, warm fire erupts inside*} {play general/misc/fireplace.wav  AnyCase
+#action {you open a bottle*} {play general/misc/openbottle.wav  AnyCase
+#action {You begin to feed * a sucking sound as*} {#if {"$socials" == "true"}{play baby/babyeats.wav}
+#action {*you splash *}  {play pool/splash1.wav} @vol2} AnyCase
+#action {*splashes you*}  {play pool/splash1.wav} @vol2} AnyCase
+#action {you open a * lockbox*} {play general/misc/lockboxopen.wav  AnyCase
+#action {you close a * lockbox*} {play general/misc/lockboxclose.wav  AnyCase
 #action {You turn the water off*} {#pc 0 stop}  AnyCase
 #action {*turns the water off*} {#pc 0 stop}  AnyCase
-#action {You hear the soft, soothing sound of water flowing down the fountain and into the rocks at the bottom*} {play {c:/program files/vipmud/miriani/sounds/general/misc/fountain.wav} @vol2}  AnyCase
-#action {A giant flame suddenly engulfs a * causing it to burn to a crisp*} {play {c:/program files/vipmud/miriani/sounds/general/misc/fireplace.wav  AnyCase
-#action {*coos*} {#if {"$socials" == "true"}{play {c:/program files/vipmud/miriani/sounds/baby/babycoo.wav}
-#action {you kick off with your feet and*} {play {c:/program files/vipmud/miriani/sounds/general/misc/swing.wav  AnyCase
-#action {*kicks off with * feet and*} {play {c:/program files/vipmud/miriani/sounds/general/misc/swing.wav  AnyCase
-#action {The table beeps quietly as it resets*} {play {c:/program files/vipmud/miriani/sounds/airhocky/beep.wav  AnyCase
-#action {*the puck down the center of the table*} {play {c:/program files/vipmud/miriani/sounds/airhocky/hitpuck.wav} @vol2}  AnyCase
-#action {The puck slides into the goal with a quiet clinking sound*} {play {c:/program files/vipmud/miriani/sounds/airhocky/goal.wav  AnyCase
-#action {The puck bounces against the edge of the table slightly*} {play {c:/program files/vipmud/miriani/sounds/airhocky/hitside.wav} @vol2}  AnyCase
-#action {you hit the puck*} {play {c:/program files/vipmud/miriani/sounds/airhocky/hitpuck.wav} @vol2}  AnyCase
-#action {*hits the puck*} {play {c:/program files/vipmud/miriani/sounds/airhocky/hitpuck.wav} @vol2}  AnyCase
-#action {*lines up a shot from*} {play {c:/program files/vipmud/miriani/sounds/airhocky/hitpuck.wav} @vol2}  AnyCase
-#action {*sends the puck flying*} {play {c:/program files/vipmud/miriani/sounds/airhocky/hitpuck.wav} @vol2}  AnyCase
-#action {With a gentle jolt, the ferry*} {play {c:/program files/vipmud/miriani/sounds/general/misc/ferry.wav  AnyCase
-#action {You barely notice as the ferry makes contact with the dock and is securely tied in place*} {play {c:/program files/vipmud/miriani/sounds/general/misc/ferrystop.wav  AnyCase
+#action {You hear the soft, soothing sound of water flowing down the fountain and into the rocks at the bottom*} {play general/misc/fountain.wav} @vol2}  AnyCase
+#action {A giant flame suddenly engulfs a * causing it to burn to a crisp*} {play general/misc/fireplace.wav  AnyCase
+#action {*coos*} {#if {"$socials" == "true"}{play baby/babycoo.wav}
+#action {you kick off with your feet and*} {play general/misc/swing.wav  AnyCase
+#action {*kicks off with * feet and*} {play general/misc/swing.wav  AnyCase
+#action {The table beeps quietly as it resets*} {play airhocky/beep.wav  AnyCase
+#action {*the puck down the center of the table*} {play airhocky/hitpuck.wav} @vol2}  AnyCase
+#action {The puck slides into the goal with a quiet clinking sound*} {play airhocky/goal.wav  AnyCase
+#action {The puck bounces against the edge of the table slightly*} {play airhocky/hitside.wav} @vol2}  AnyCase
+#action {you hit the puck*} {play airhocky/hitpuck.wav} @vol2}  AnyCase
+#action {*hits the puck*} {play airhocky/hitpuck.wav} @vol2}  AnyCase
+#action {*lines up a shot from*} {play airhocky/hitpuck.wav} @vol2}  AnyCase
+#action {*sends the puck flying*} {play airhocky/hitpuck.wav} @vol2}  AnyCase
+#action {With a gentle jolt, the ferry*} {play general/misc/ferry.wav  AnyCase
+#action {You barely notice as the ferry makes contact with the dock and is securely tied in place*} {play general/misc/ferrystop.wav  AnyCase
 
-#action {A * of * slams into your *, drenching it in *!} {play {c:/program files/vipmud/miriani/sounds/General/Socials/slimemachinehit.wav 
+#action {A * of * slams into your *, drenching it in *!} {play General/Socials/slimemachinehit.wav 
 
-#action {A * of * slams into *, drenching it in *!} {play {c:/program files/vipmud/miriani/sounds/General/Socials/slimemachinehit.wav 
+#action {A * of * slams into *, drenching it in *!} {play General/Socials/slimemachinehit.wav 
 
-#action {You smash your foot into a * of * and it forms a large puddle.} {play {c:/program files/vipmud/miriani/sounds/General/Socials/slimepuddlesplat.wav 
+#action {You smash your foot into a * of * and it forms a large puddle.} {play General/Socials/slimepuddlesplat.wav 
 
 
-#action {You smash a * of * into your face, where it bursts and covers you in *!} {play {c:/program files/vipmud/miriani/sounds/General/Socials/slimepuddlesplat.wav 
+#action {You smash a * of * into your face, where it bursts and covers you in *!} {play General/Socials/slimepuddlesplat.wav 
 
-#action {You glance at * for a moment before deciding that it's hardly worth keeping. With that in mind, you hurl it to the ground, where it shatters into several pieces.} {play {c:/program files/vipmud/miriani/sounds/General/Socials/breakingglass*5.wav 
+#action {You glance at * for a moment before deciding that it's hardly worth keeping. With that in mind, you hurl it to the ground, where it shatters into several pieces.} {play General/Socials/breakingglass*5.wav 
 
-#action {* glances at * for a moment before deciding that it's hardly worth keeping. With that in mind, * hurls it to the ground, where it shatters into several pieces.*} {play {c:/program files/vipmud/miriani/sounds/General/Socials/breakingglass*5.wav 
+#action {* glances at * for a moment before deciding that it's hardly worth keeping. With that in mind, * hurls it to the ground, where it shatters into several pieces.*} {play General/Socials/breakingglass*5.wav 
 
-#action {* carefully attach* worm to * fishing pole*} {play {c:/program files/vipmud/miriani/sounds/fishworm.wav 
+#action {* carefully attach* worm to * fishing pole*} {play fishworm.wav 
 
-#action {*suddenly glances around, seemingly rather embarrassed that the fish got away.*} {play {c:/program files/vipmud/miriani/sounds/fishescape.wav 
+#action {*suddenly glances around, seemingly rather embarrassed that the fish got away.*} {play fishescape.wav 
 
-#action {*You feel a mighty lurch and realize in disappointment that the fish got away.*} {play {c:/program files/vipmud/miriani/sounds/fishescape.wav 
+#action {*You feel a mighty lurch and realize in disappointment that the fish got away.*} {play fishescape.wav 
 
-#action {* lazily cast* line of * into the water*} {play {c:/program files/vipmud/miriani/sounds/fishcast.wav 
+#action {* lazily cast* line of * into the water*} {play fishcast.wav 
 
-#action {*carefully removes*from*fishing pole*} {play {c:/program files/vipmud/miriani/sounds/fishcatch.wav 
+#action {*carefully removes*from*fishing pole*} {play fishcatch.wav 
 
-#action {* suddenly begins to reel * line in*} {play {c:/program files/vipmud/miriani/sounds/fishreel.wav 
+#action {* suddenly begins to reel * line in*} {play fishreel.wav 
 
-#action {*you carefully remove * from your line*} {play {c:/program files/vipmud/miriani/sounds/fishcatch.wav  AnyCase
+#action {*you carefully remove * from your line*} {play fishcatch.wav  AnyCase
 
-#action {*You suddenly feel a mighty tug on the end of your line.*} {play {c:/program files/vipmud/miriani/sounds/fishreel.wav */
+#action {*You suddenly feel a mighty tug on the end of your line.*} {play fishreel.wav */
 
 #NOP logging
 #macro {\eOS}
