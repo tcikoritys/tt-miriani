@@ -1,0 +1,14 @@
+#CLASS {data} OPEN
+
+#VARIABLE         {cfoc}  {off}
+#VARIABLE         {consolemode}  {console}
+#VARIABLE         {cscan}  {off}
+#VARIABLE         {debkills}  {0}
+#VARIABLE         {destroyed}  {0}
+#VARIABLE         {ehits}  {0}
+#VARIABLE         {logging}  {off}
+#VARIABLE         {movemode}  {walk}
+#VARIABLE         {vol}  {0.15}
+#variable {socials} {true}
+
+#CLASS {data} CLOSE
