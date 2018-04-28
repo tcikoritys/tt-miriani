@@ -964,7 +964,7 @@ play General/Misc/Command@intmath{1d10}.wav
 {
 play prompt.wav
 }
-#action {[ [ ]Type a line of input or %1abort' to abort the command.]} 
+#action {[Type a line of input or %1abort' to abort the command.]} 
 {
 play prompt.wav
 }
