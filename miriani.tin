@@ -1,7 +1,7 @@
 #NOP sound and math alias
 #alias {play %0.%1}
 {
-#system play -v $vol ./sounds/"%0.%1" -q 2>/dev/null &;
+#system play -v $vol ./sounds/sounds/"%0.%1" -q 2>/dev/null &;
 #gag {^[[0m#OK: EXECUTING %0}
 }
 #alias {{vol|volume} %1}
