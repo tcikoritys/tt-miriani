@@ -2368,7 +2368,7 @@ play General/Socials/cackle.wav
 #action {* yawns suddenly and collapses to the ground, asleep*} {#if {"$socials" == "true"}{play General/Socials/collapse3.wav}
 #action {you open a * refrigerator} {play General/Misc/fridgeopen.wav  AnyCase
 #action {you close a * refrigerator} {play General/Misc/fridgeclose.wav  AnyCase
-#action {* and finally vomit*} {#if {"$socials" == "true"}{play General/Socials/vomit.wav}
+#action {and finally vomit} {#if {"$socials" == "true"}{play General/Socials/vomit.wav}
 #action {you turn*sink on*} {play General/Misc/fausset.wav  AnyCase
 #action {you begin washing*} {play General/Misc/washinghands.wav  AnyCase
 #action {You slide open the shower door and enter in to*} {play General/Misc/showerdoor.wav  AnyCase
