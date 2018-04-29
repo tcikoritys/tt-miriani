@@ -2366,71 +2366,71 @@ play General/Socials/cackle.wav
 #action {You cover your mouth and yawn*} {#if {"$socials" == "true"}{play General/Socials/yawn*2.wav}
 #action {* covers * mouth and yawns*} {#if {"$socials" == "true"}{play General/Socials/yawn*2.wav}
 #action {* yawns suddenly and collapses to the ground, asleep*} {#if {"$socials" == "true"}{play General/Socials/collapse3.wav}
-#action {you open a * refrigerator} {play general/misc/fridgeopen.wav  AnyCase
-#action {you close a * refrigerator} {play general/misc/fridgeclose.wav  AnyCase
+#action {you open a * refrigerator} {play General/Misc/fridgeopen.wav  AnyCase
+#action {you close a * refrigerator} {play General/Misc/fridgeclose.wav  AnyCase
 #action {* and finally vomit*} {#if {"$socials" == "true"}{play General/Socials/vomit.wav}
-#action {you turn*sink on*} {play general/misc/fausset.wav  AnyCase
-#action {you begin washing*} {play general/misc/washinghands.wav  AnyCase
-#action {You slide open the shower door and enter in to*} {play general/misc/showerdoor.wav  AnyCase
-#action {*water continues to spray down on you*} {play general/misc/shower.wav  AnyCase
-#action {*water continues to spray down on you*} {play general/misc/shower.wav  AnyCase
+#action {you turn*sink on*} {play General/Misc/fausset.wav  AnyCase
+#action {you begin washing*} {play General/Misc/washinghands.wav  AnyCase
+#action {You slide open the shower door and enter in to*} {play General/Misc/showerdoor.wav  AnyCase
+#action {*water continues to spray down on you*} {play General/Misc/shower.wav  AnyCase
+#action {*water continues to spray down on you*} {play General/Misc/shower.wav  AnyCase
 #action {you spank * while squ*} {#if {"$socials" == "true"}{play General/Socials/spank.wav}
-#action {once finished, you clean yourself and*} {play general/misc/loudtoiletflush.wav} @vol2}  AnyCase
-#action {a * washing machine begins filling with water as the*} {play general/misc/washingmachine.wav} @vol2}  AnyCase
-#action {a * dryer warms up and*} {play general/misc/clothesdryer.wav  AnyCase
-#action {You close the lid on*waffle iron and wait patiently as it begins*} {play general/misc/waffleiron.wav  AnyCase
+#action {once finished, you clean yourself and*} {play  @vol2}  AnyCase
+#action {a * washing machine begins filling with water as the*} {play  @vol2}  AnyCase
+#action {a * dryer warms up and*} {play General/Misc/clothesdryer.wav  AnyCase
+#action {You close the lid on*waffle iron and wait patiently as it begins*} {play General/Misc/waffleiron.wav  AnyCase
 
-#action {you carefully light a*} {play general/misc/candle.wav  AnyCase
+#action {you carefully light a*} {play General/Misc/candle.wav  AnyCase
 #action {* starts crying loudly*} {#if {"$socials" == "true"}{play baby/babycry*4.wav}
 #action {*coos} {#if {"$socials" == "true"}{play baby/babycoo.wav}
 #action {*babbles*} {#if {"$socials" == "true"}{play baby/babytalk*2.wav}
-#action {you jump in the pool and begin to swim*} {play pool/enterpool.wav} @vol2}  AnyCase
-#action {you fall to the water with a splash*} {play pool/splash1.wav} @vol2}  AnyCase
-#action {you take a deep breath, dive underwater*} {play pool/underwater.wav} @vol2}  AnyCase
-#action {You emerge from underwater and take a deep breath*} {play pool/splash1.wav} @vol2}  AnyCase
-#action {With a strong jump, you dive into the water with a big splash*} {play pool/splash2.wav} @vol2}  AnyCase
-#action {you push * into the water*} {play pool/enterpool.wav} @vol2}  AnyCase
-#action {* pushes you into the water*} {play pool/enterpool.wav} @vol2}  AnyCase
-#action {*crashes to the water with a splash*} {play pool/splash1.wav} @vol2}  AnyCase
-#action {*takes a deep breath and dives underwater as he fades out of view*} {play pool/splash1.wav} @vol2}  AnyCase
-#action {*emerges from under the water and takes a deep breath*} {play pool/splash2.wav} @vol2}  AnyCase
-#action {*a * diving toy into the pool and it sinks to the bottom*} {play pool/splash3.wav} @vol2}  AnyCase
-#action {*deep into the pool to fetch a * diving toy*} {play pool/underwater.wav} @vol2}  AnyCase
-#action {*jumps off the board and hits the water with a splash*} {play pool/splash2.wav} @vol2}  AnyCase
-#action {You neatly shuffle a deck of classic Assault cards and set them down as you wait for the second player*} {play general/misc/cardshuffle.wav} @vol2}  AnyCase
-#action {*neatly stacks a deck of classic Assault cards and waits patiently for another player to arrive*} {play general/misc/cardshuffle.wav} @vol2}  AnyCase
-#action {You wind up and send a ball down the lane*} {play general/misc/skeeballrolls.wav  AnyCase
-#action {Game over.  Your final score is*} {play general/misc/skeeballscore.wav} @vol2}  AnyCase
-#action {You press a button on * blender and watch as the contents are blended together into a delicious concoction of*} {play general/misc/blender.wav  AnyCase
-#action {You open * refrigerator*} {play general/misc/fridgeopen.wav} @vol2}  AnyCase
-#action {You close * refrigerator.} {play general/misc/fridgeclose.wav} @vol2}  AnyCase
-#action {*into an empty*} {play general/misc/pouringliquid.wav} @vol2}  AnyCase
-#action {you clink glasses with *} {play general/misc/wineglass.wav} @vol2}  AnyCase
-#action {* clinks glasses with you*} {play general/misc/wineglass.wav} @vol2}  AnyCase
-#action {Sensing adequate kindling, a bright, warm fire erupts inside*} {play general/misc/fireplace.wav  AnyCase
-#action {you open a bottle*} {play general/misc/openbottle.wav  AnyCase
+#action {you jump in the pool and begin to swim*} {play  @vol2}  AnyCase
+#action {you fall to the water with a splash*} {play  @vol2}  AnyCase
+#action {you take a deep breath, dive underwater*} {play  @vol2}  AnyCase
+#action {You emerge from underwater and take a deep breath*} {play  @vol2}  AnyCase
+#action {With a strong jump, you dive into the water with a big splash*} {play  @vol2}  AnyCase
+#action {you push * into the water*} {play  @vol2}  AnyCase
+#action {* pushes you into the water*} {play  @vol2}  AnyCase
+#action {*crashes to the water with a splash*} {play  @vol2}  AnyCase
+#action {*takes a deep breath and dives underwater as he fades out of view*} {play  @vol2}  AnyCase
+#action {*emerges from under the water and takes a deep breath*} {play  @vol2}  AnyCase
+#action {*a * diving toy into the pool and it sinks to the bottom*} {play  @vol2}  AnyCase
+#action {*deep into the pool to fetch a * diving toy*} {play  @vol2}  AnyCase
+#action {*jumps off the board and hits the water with a splash*} {play  @vol2}  AnyCase
+#action {You neatly shuffle a deck of classic Assault cards and set them down as you wait for the second player*} {play  @vol2}  AnyCase
+#action {*neatly stacks a deck of classic Assault cards and waits patiently for another player to arrive*} {play  @vol2}  AnyCase
+#action {You wind up and send a ball down the lane*} {play General/Misc/skeeballrolls.wav  AnyCase
+#action {Game over.  Your final score is*} {play  @vol2}  AnyCase
+#action {You press a button on * blender and watch as the contents are blended together into a delicious concoction of*} {play General/Misc/blender.wav  AnyCase
+#action {You open * refrigerator*} {play General/Misc/fridgeopen.wav} @vol2}  AnyCase
+#action {You close * refrigerator.} {play General/Misc/fridgeclose.wav} @vol2}  AnyCase
+#action {*into an empty*} {play  @vol2}  AnyCase
+#action {you clink glasses with *} {play  @vol2}  AnyCase
+#action {* clinks glasses with you*} {play  @vol2}  AnyCase
+#action {Sensing adequate kindling, a bright, warm fire erupts inside*} {play General/Misc/fireplace.wav  AnyCase
+#action {you open a bottle*} {play General/Misc/openbottle.wav  AnyCase
 #action {You begin to feed * a sucking sound as*} {#if {"$socials" == "true"}{play baby/babyeats.wav}
-#action {*you splash *}  {play pool/splash1.wav} @vol2} AnyCase
-#action {*splashes you*}  {play pool/splash1.wav} @vol2} AnyCase
-#action {you open a * lockbox*} {play general/misc/lockboxopen.wav  AnyCase
-#action {you close a * lockbox*} {play general/misc/lockboxclose.wav  AnyCase
+#action {*you splash *}  {play  @vol2} AnyCase
+#action {*splashes you*}  {play  @vol2} AnyCase
+#action {you open a * lockbox*} {play General/Misc/LockBoxOpen.wav  AnyCase
+#action {you close a * lockbox*} {play General/Misc/LockBoxClose.wav  AnyCase
 #action {You turn the water off*} {#pc 0 stop}  AnyCase
 #action {*turns the water off*} {#pc 0 stop}  AnyCase
-#action {You hear the soft, soothing sound of water flowing down the fountain and into the rocks at the bottom*} {play general/misc/fountain.wav} @vol2}  AnyCase
-#action {A giant flame suddenly engulfs a * causing it to burn to a crisp*} {play general/misc/fireplace.wav  AnyCase
+#action {You hear the soft, soothing sound of water flowing down the fountain and into the rocks at the bottom*} {play  @vol2}  AnyCase
+#action {A giant flame suddenly engulfs a * causing it to burn to a crisp*} {play General/Misc/fireplace.wav  AnyCase
 #action {*coos*} {#if {"$socials" == "true"}{play baby/babycoo.wav}
-#action {you kick off with your feet and*} {play general/misc/swing.wav  AnyCase
-#action {*kicks off with * feet and*} {play general/misc/swing.wav  AnyCase
-#action {The table beeps quietly as it resets*} {play airhocky/beep.wav  AnyCase
-#action {*the puck down the center of the table*} {play airhocky/hitpuck.wav} @vol2}  AnyCase
+#action {you kick off with your feet and*} {play General/Misc/swing.wav  AnyCase
+#action {*kicks off with * feet and*} {play General/Misc/swing.wav  AnyCase
+#action {The table beeps quietly as it resets*} {play airhocky/Beep.wav  AnyCase
+#action {*the puck down the center of the table*} {play  @vol2}  AnyCase
 #action {The puck slides into the goal with a quiet clinking sound*} {play airhocky/goal.wav  AnyCase
-#action {The puck bounces against the edge of the table slightly*} {play airhocky/hitside.wav} @vol2}  AnyCase
-#action {you hit the puck*} {play airhocky/hitpuck.wav} @vol2}  AnyCase
-#action {*hits the puck*} {play airhocky/hitpuck.wav} @vol2}  AnyCase
-#action {*lines up a shot from*} {play airhocky/hitpuck.wav} @vol2}  AnyCase
-#action {*sends the puck flying*} {play airhocky/hitpuck.wav} @vol2}  AnyCase
-#action {With a gentle jolt, the ferry*} {play general/misc/ferry.wav  AnyCase
-#action {You barely notice as the ferry makes contact with the dock and is securely tied in place*} {play general/misc/ferrystop.wav  AnyCase
+#action {The puck bounces against the edge of the table slightly*} {play  @vol2}  AnyCase
+#action {you hit the puck*} {play  @vol2}  AnyCase
+#action {*hits the puck*} {play  @vol2}  AnyCase
+#action {*lines up a shot from*} {play  @vol2}  AnyCase
+#action {*sends the puck flying*} {play  @vol2}  AnyCase
+#action {With a gentle jolt, the ferry*} {play General/Misc/ferry.wav  AnyCase
+#action {You barely notice as the ferry makes contact with the dock and is securely tied in place*} {play General/Misc/ferrystop.wav  AnyCase
 
 #action {A * of * slams into your *, drenching it in *!} {play General/Socials/slimemachinehit.wav 
 
