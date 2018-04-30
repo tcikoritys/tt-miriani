@@ -81,7 +81,7 @@ play Music/starter@intmath{1d11}.wav
 #showme {Your soundpack is now in terminal mode.}
 }
 }
-#action {*** Connected ***}
+#action {%*%*%* Connected %*%*%*}
 {
 play Music/Connect.wav;
 #line gag;
@@ -1016,7 +1016,7 @@ play Joins.wav
 {
 play disband.wav
 }
-#action {* indicates that %1 no longer wishes you to follow %2.%3} 
+#action {%* indicates that %1 no longer wishes you to follow %2.%3} 
 {
 play disband.wav
 }
@@ -1561,10 +1561,10 @@ play Ship/Computer/Announce@intmath{1d4}.wav;
 {
 play Ship/Computer/LRScan@intmath{1d4}.wav
 }
-/*#action {The computer reports$1} 
+#action {The computer reports%*} 
 {
 play Ship/Computer/Report@intmath{1d4}.wav
-}*/
+}
 #action {The computer announces, "Scans reveal the debris to be a life form."} 
 {
 play Ship/Misc/SalvageLifeForm.wav;
@@ -1667,7 +1667,7 @@ play Ship/Misc/Switch.wav
 {
 play General/Misc/SFBeep@intmath{1d15}.wav
 }
-#action {You press a large * button.} 
+#action {You press a large %* button.} 
 {
 play General/Misc/SFBeep@intmath{1d15}.wav
 }
@@ -1861,12 +1861,12 @@ play General/Combat/fuzzy.wav
 play commchirp.wav;
 #line gag
 }
-/*#action {A voice comes over the speaker and says, "%1"} 
+#action {A voice comes over the speaker and says, "%1"} 
 {
 play commchirp2.wav;
  #showme {%1};
 #line gag
-}*/
+}
 #action {You begin the %1 sequence.} 
 {
 play General/Misc/SFBeep@intmath{1d15}.wav;
@@ -2295,171 +2295,170 @@ play General/Socials/cackle.wav
 play General/Socials/cackle.wav
 }
 }
-/*#action {You chortle.} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}
-#action {You chortle at*} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}
-#action {You fall to the ground and chortle in unsurpassed merriment.} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}
-#action {* chortles.} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}
-#action {* chortles at *} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}
-#action {* falls to the ground and chortles in unsurpassed merriment.} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}
-#action {You chuckle.} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}
-#action {You chuckle at*} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}
-#action {You chuckle heartily.} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}
-#action {* chuckles.*} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}
-#action { chuckles heartily.} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}
-#action {* chuckles at *} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}
-#action {You collapse in a heap on the floor.} {#if {"$socials" == "true"}{play General/Socials/collapse*3.wav}
-#action {You collapse onto *} {#if {"$socials" == "true"}{play General/Socials/collapse*3.wav}
-#action {You let out a shriek before dramatically collapsing to the ground.} {#if {"$socials" == "true"}{play General/Socials/collapse*3.wav}
-#action {You collapse at *} {#if {"$socials" == "true"}{play General/Socials/collapse*3.wav}
-#action {*collapses in a heap on the floor.} {#if {"$socials" == "true"}{play General/Socials/collapse*3.wav}
-#action {* collapses at *} {#if {"$socials" == "true"}{play General/Socials/collapse*3.wav}
-#action {* lets out a shriek before dramatically collapsing to the ground.} {#if {"$socials" == "true"}{play General/Socials/collapse*3.wav}
-#action {* collapses onto *} {#if {"$socials" == "true"}{play General/Socials/collapse*3.wav}
-#action {You cough at *} {#if {"$socials" == "true"}{play General/Socials/cough*5.wav}
-#action {You have a mad coughing fit.} {#if {"$socials" == "true"}{play General/Socials/cough*5.wav}
-#action {You cough.} {#if {"$socials" == "true"}{play General/Socials/cough*5.wav}
-#action {* coughs at *} {#if {"$socials" == "true"}{play General/Socials/cough*5.wav}
-#action {* has a mad coughing fit.} {#if {"$socials" == "true"}{play General/Socials/cough*5.wav}
-#action {* coughs.} {#if {"$socials" == "true"}{play General/Socials/cough*5.wav}
-#action {You make yourself gag.} {#if {"$socials" == "true"}{play General/Socials/gag*2.wav}
-#action {You gag.} {#if {"$socials" == "true"}{play General/Socials/gag*2.wav}
-#action {You gag at *} {#if {"$socials" == "true"}{play General/Socials/gag*2.wav}
-#action {* gags.} {#if {"$socials" == "true"}{play General/Socials/gag*2.wav}
-#action {* gags at *} {#if {"$socials" == "true"}{play General/Socials/gag*2.wav}
-#action {* sticks a finger down*throat and gags.} {#if {"$socials" == "true"}{play General/Socials/gag*2.wav}
-#action {You laugh.} {#if {"$socials" == "true"}{play General/Socials/laugh*6.wav}
-#action {You laugh at *} {#if {"$socials" == "true"}{play General/Socials/laugh*6.wav}
-#action {You laugh hysterically.} {#if {"$socials" == "true"}{play General/Socials/laugh*6.wav}
-#action {You lean back your head and laugh out loud!} {#if {"$socials" == "true"}{play General/Socials/lol*2.wav}
-#action {You stare at*and suddenly laugh out loud.} {#if {"$socials" == "true"}{play General/Socials/lol*2.wav}
-#action {You laugh out loud at nothing in particular.} {#if {"$socials" == "true"}{play General/Socials/lol*2.wav}
-#action {* laughs.} {#if {"$socials" == "true"}{play General/Socials/laugh*6.wav}
-#action {* laughs at *} {#if {"$socials" == "true"}{play General/Socials/laugh*6.wav}
-#action {* laughs hysterically.} {#if {"$socials" == "true"}{play General/Socials/laugh*6.wav}
-#action {* leans back*head and laughs out loud!} {#if {"$socials" == "true"}{play General/Socials/lol*2.wav}
-#action {* stares at you for a moment, then suddenly laughs out loud.} {#if {"$socials" == "true"}{play General/Socials/lol*2.wav}
-#action {* laughs out loud at *} {#if {"$socials" == "true"}{play General/Socials/lol*2.wav}
-#action {You moan loudly*} {#if {"$socials" == "true"}{play General/Socials/moan*2.wav }
-#action {* moans loudly*} {#if {"$socials" == "true"}{play General/Socials/moan*2.wav }
-#action {Some lovely elevator music abruptly stops playing as the airlock ceases cycling*} {play General/Socials/rofl*3.wav 
-#action {You roll on the floor laughing*} {#if {"$socials" == "true"}{play General/Socials/rofl*3.wav}
-#action {You laugh merrily as you roll about on the floor*} {#if {"$socials" == "true"}{play General/Socials/rofl*3.wav }
-#action {* laughs merrily as * rolls about on the floor*} {#if {"$socials" == "true"}{play General/Socials/rofl*3.wav }
-#action {* rolls on the floor laughing*} {#if {"$socials" == "true"}{play General/Socials/rofl*3.wav}
-#action {You utter a terrified scream*} {#if {"$socials" == "true"}{play General/Socials/scream*8.wav}
-#action {You scream*} {#if {"$socials" == "true"}{play General/Socials/scream*8.wav}
-#action {* utters a terrified scream*} {#if {"$socials" == "true"}{play General/Socials/scream*8.wav}
-#action {* screams*} {#if {"$socials" == "true"}{play General/Socials/scream*8.wav}
-#action {You sigh*} {#if {"$socials" == "true"}{play General/Socials/sigh*5.wav}
-#action {* sighs*} {#if {"$socials" == "true"}{play General/Socials/sigh*5.wav}
-#action {You snap your fingers*} {#if {"$socials" == "true"}{play General/Socials/snap*3.wav}
-#action {* snaps * fingers*} {#if {"$socials" == "true"}{play General/Socials/snap*3.wav}
-#action {You let out an ear-piercing shriek*} {#if {"$socials" == "true"}{play General/Socials/shriek*2.wav}
-#action {* lets out an ear-piercing shriek*} {#if {"$socials" == "true"}{play General/Socials/shriek*2.wav }
-#action {You close your eyes, inhale deeply, and let out the most blood curdling shriek you could ever have hoped to accomplish*} {#if {"$socials" == "true"}{play General/Socials/shriek*2.wav}
-#action {* closes * eyes, inhales deeply, and suddenly lets out the most blood curdling shriek you could ever have imagined*} {#if {"$socials" == "true"}{play General/Socials/shriek*2.wav}
-#action {* grasps * neck and squeezes firmly*} {#if {"$socials" == "true"}{play General/Socials/strangle*2.wav}
-#action {You grasp * and squeeze*} {#if {"$socials" == "true"}{play General/Socials/strangle*2.wav}
-#action {* grasps * and squeezes*} {#if {"$socials" == "true"}{play General/Socials/strangle*2.wav}
-#action {You yawn*} {#if {"$socials" == "true"}{play General/Socials/yawn*2.wav}
-#action {* yawns*} {#if {"$socials" == "true"}{play General/Socials/yawn*2.wav}
-#action {You cover your mouth and yawn*} {#if {"$socials" == "true"}{play General/Socials/yawn*2.wav}
-#action {* covers * mouth and yawns*} {#if {"$socials" == "true"}{play General/Socials/yawn*2.wav}
-#action {* yawns suddenly and collapses to the ground, asleep*} {#if {"$socials" == "true"}{play General/Socials/collapse3.wav}
-#action {you open a * refrigerator} {play General/Misc/fridgeopen.wav  AnyCase
-#action {you close a * refrigerator} {play General/Misc/fridgeclose.wav  AnyCase
-#action {and finally vomit} {#if {"$socials" == "true"}{play General/Socials/vomit.wav}
-#action {you turn*sink on*} {play General/Misc/fausset.wav  AnyCase
-#action {you begin washing*} {play General/Misc/washinghands.wav  AnyCase
-#action {You slide open the shower door and enter in to*} {play General/Misc/showerdoor.wav  AnyCase
-#action {*water continues to spray down on you*} {play General/Misc/shower.wav  AnyCase
-#action {*water continues to spray down on you*} {play General/Misc/shower.wav  AnyCase
-#action {you spank * while squ*} {#if {"$socials" == "true"}{play General/Socials/spank.wav}
-#action {once finished, you clean yourself and*} {play  @vol2}  AnyCase
-#action {a * washing machine begins filling with water as the*} {play  @vol2}  AnyCase
-#action {a * dryer warms up and*} {play General/Misc/clothesdryer.wav  AnyCase
-#action {You close the lid on*waffle iron and wait patiently as it begins*} {play General/Misc/waffleiron.wav  AnyCase
+#action {You chortle.} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}}
+#action {You chortle at%*} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}}
+#action {You fall to the ground and chortle in unsurpassed merriment.} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}}
+#action {%* chortles.} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}}
+#action {%* chortles at %*} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}}
+#action {%* falls to the ground and chortles in unsurpassed merriment.} {#if {"$socials" == "true"}{play General/Socials/chortle.wav}}
+#action {You chuckle.} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}}
+#action {You chuckle at%*} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}}
+#action {You chuckle heartily.} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}}
+#action {%* chuckles.%*} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}}
+#action { chuckles heartily.} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}}
+#action {%* chuckles at %*} {#if {"$socials" == "true"}{play General/Socials/chuckle.wav}}
+#action {You collapse in a heap on the floor.} {#if {"$socials" == "true"}{play General/Socials/collapse%*3.wav}}
+#action {You collapse onto %*} {#if {"$socials" == "true"}{play General/Socials/collapse%*3.wav}}
+#action {You let out a shriek before dramatically collapsing to the ground.} {#if {"$socials" == "true"}{play General/Socials/collapse%*3.wav}}
+#action {You collapse at %*} {#if {"$socials" == "true"}{play General/Socials/collapse%*3.wav}}
+#action {%*collapses in a heap on the floor.} {#if {"$socials" == "true"}{play General/Socials/collapse%*3.wav}}
+#action {%* collapses at %*} {#if {"$socials" == "true"}{play General/Socials/collapse%*3.wav}}
+#action {%* lets out a shriek before dramatically collapsing to the ground.} {#if {"$socials" == "true"}{play General/Socials/collapse%*3.wav}}
+#action {%* collapses onto %*} {#if {"$socials" == "true"}{play General/Socials/collapse%*3.wav}}
+#action {You cough at %*} {#if {"$socials" == "true"}{play General/Socials/cough%*5.wav}}
+#action {You have a mad coughing fit.} {#if {"$socials" == "true"}{play General/Socials/cough%*5.wav}}
+#action {You cough.} {#if {"$socials" == "true"}{play General/Socials/cough%*5.wav}}
+#action {%* coughs at %*} {#if {"$socials" == "true"}{play General/Socials/cough%*5.wav}}
+#action {%* has a mad coughing fit.} {#if {"$socials" == "true"}{play General/Socials/cough%*5.wav}}
+#action {%* coughs.} {#if {"$socials" == "true"}{play General/Socials/cough%*5.wav}}
+#action {You make yourself gag.} {#if {"$socials" == "true"}{play General/Socials/gag%*2.wav}}
+#action {You gag.} {#if {"$socials" == "true"}{play General/Socials/gag%*2.wav}}
+#action {You gag at %*} {#if {"$socials" == "true"}{play General/Socials/gag%*2.wav}}
+#action {%* gags.} {#if {"$socials" == "true"}{play General/Socials/gag%*2.wav}}
+#action {%* gags at %*} {#if {"$socials" == "true"}{play General/Socials/gag%*2.wav}}
+#action {%* sticks a finger down%*throat and gags.} {#if {"$socials" == "true"}{play General/Socials/gag%*2.wav}}
+#action {You laugh.} {#if {"$socials" == "true"}{play General/Socials/laugh%*6.wav}}
+#action {You laugh at %*} {#if {"$socials" == "true"}{play General/Socials/laugh%*6.wav}}
+#action {You laugh hysterically.} {#if {"$socials" == "true"}{play General/Socials/laugh%*6.wav}}
+#action {You lean back your head and laugh out loud!} {#if {"$socials" == "true"}{play General/Socials/lol%*2.wav}}
+#action {You stare at%*and suddenly laugh out loud.} {#if {"$socials" == "true"}{play General/Socials/lol%*2.wav}}
+#action {You laugh out loud at nothing in particular.} {#if {"$socials" == "true"}{play General/Socials/lol%*2.wav}}
+#action {%* laughs.} {#if {"$socials" == "true"}{play General/Socials/laugh%*6.wav}}
+#action {%* laughs at %*} {#if {"$socials" == "true"}{play General/Socials/laugh%*6.wav}}
+#action {%* laughs hysterically.} {#if {"$socials" == "true"}{play General/Socials/laugh%*6.wav}}
+#action {%* leans back%*head and laughs out loud!} {#if {"$socials" == "true"}{play General/Socials/lol%*2.wav}}
+#action {%* stares at you for a moment, then suddenly laughs out loud.} {#if {"$socials" == "true"}{play General/Socials/lol%*2.wav}}
+#action {%* laughs out loud at %*} {#if {"$socials" == "true"}{play General/Socials/lol%*2.wav}}
+#action {You moan loudly%*} {#if {"$socials" == "true"}{play General/Socials/moan%*2.wav }}
+#action {%* moans loudly%*} {#if {"$socials" == "true"}{play General/Socials/moan%*2.wav }}
+#action {You roll on the floor laughing%*} {#if {"$socials" == "true"}{play General/Socials/rofl%*3.wav}}
+#action {You laugh merrily as you roll about on the floor%*} {#if {"$socials" == "true"}{play General/Socials/rofl%*3.wav }}
+#action {%* laughs merrily as %* rolls about on the floor%*} {#if {"$socials" == "true"}{play General/Socials/rofl%*3.wav }}
+#action {%* rolls on the floor laughing%*} {#if {"$socials" == "true"}{play General/Socials/rofl%*3.wav}}
+#action {You utter a terrified scream%*} {#if {"$socials" == "true"}{play General/Socials/scream%*8.wav}}
+#action {You scream%*} {#if {"$socials" == "true"}{play General/Socials/scream%*8.wav}}
+#action {%* utters a terrified scream%*} {#if {"$socials" == "true"}{play General/Socials/scream%*8.wav}}
+#action {%* screams%*} {#if {"$socials" == "true"}{play General/Socials/scream%*8.wav}}
+#action {You sigh%*} {#if {"$socials" == "true"}{play General/Socials/sigh%*5.wav}}
+#action {%* sighs%*} {#if {"$socials" == "true"}{play General/Socials/sigh%*5.wav}}
+#action {You snap your fingers%*} {#if {"$socials" == "true"}{play General/Socials/snap%*3.wav}}
+#action {%* snaps %* fingers%*} {#if {"$socials" == "true"}{play General/Socials/snap%*3.wav}}
+#action {You let out an ear-piercing shriek%*} {#if {"$socials" == "true"}{play General/Socials/shriek%*2.wav}}
+#action {%* lets out an ear-piercing shriek%*} {#if {"$socials" == "true"}{play General/Socials/shriek%*2.wav }}
+#action {You close your eyes, inhale deeply, and let out the most blood curdling shriek you could ever have hoped to accomplish%*} {#if {"$socials" == "true"}{play General/Socials/shriek%*2.wav}}
+#action {%* closes %* eyes, inhales deeply, and suddenly lets out the most blood curdling shriek you could ever have imagined%*} {#if {"$socials" == "true"}{play General/Socials/shriek%*2.wav}}
+#action {%* grasps %* neck and squeezes firmly%*} {#if {"$socials" == "true"}{play General/Socials/strangle%*2.wav}}
+#action {You grasp %* and squeeze%*} {#if {"$socials" == "true"}{play General/Socials/strangle%*2.wav}}
+#action {%* grasps %* and squeezes%*} {#if {"$socials" == "true"}{play General/Socials/strangle%*2.wav}}
+#action {You yawn%*} {#if {"$socials" == "true"}{play General/Socials/yawn%*2.wav}}
+#action {%* yawns%*} {#if {"$socials" == "true"}{play General/Socials/yawn%*2.wav}}
+#action {You cover your mouth and yawn%*} {#if {"$socials" == "true"}{play General/Socials/yawn%*2.wav}}
+#action {%* covers %* mouth and yawns%*} {#if {"$socials" == "true"}{play General/Socials/yawn%*2.wav}}
+#action {%* yawns suddenly and collapses to the ground, asleep%*} {#if {"$socials" == "true"}{play General/Socials/collapse3.wav}}
+#action {you open a %* refrigerator} {play General/Misc/fridgeopen.wav  }
+#action {you close a %* refrigerator} {play General/Misc/fridgeclose.wav  }
+#action {and finally vomit} {#if {"$socials" == "true"}{play General/Socials/vomit.wav}}
+#action {you turn%*sink on%*} {play General/Misc/fausset.wav  }
+#action {you begin washing%*} {play General/Misc/washinghands.wav  }
+#action {You slide open the shower door and enter in to%*} {play General/Misc/showerdoor.wav  }
+#action {%*water continues to spray down on you%*} {play General/Misc/shower.wav  }
+#action {%*water continues to spray down on you%*} {play General/Misc/shower.wav  }
+#action {you spank %* while squ%*} {#if {"$socials" == "true"}{play General/Socials/spank.wav}}
+#action {once finished, you clean yourself and%*} {play  @vol2}
+#action {a %* washing machine begins filling with water as the%*} {play  @vol2}
+#action {a %* dryer warms up and%*} {play General/Misc/clothesdryer.wav  }
+#action {You close the lid on%*waffle iron and wait patiently as it begins%*} {play General/Misc/waffleiron.wav  }
 
-#action {you carefully light a*} {play General/Misc/candle.wav  AnyCase
-#action {* starts crying loudly*} {#if {"$socials" == "true"}{play baby/babycry*4.wav}
-#action {*coos} {#if {"$socials" == "true"}{play baby/babycoo.wav}
-#action {*babbles*} {#if {"$socials" == "true"}{play baby/babytalk*2.wav}
-#action {you jump in the pool and begin to swim*} {play  @vol2}  AnyCase
-#action {you fall to the water with a splash*} {play  @vol2}  AnyCase
-#action {you take a deep breath, dive underwater*} {play  @vol2}  AnyCase
-#action {You emerge from underwater and take a deep breath*} {play  @vol2}  AnyCase
-#action {With a strong jump, you dive into the water with a big splash*} {play  @vol2}  AnyCase
-#action {you push * into the water*} {play  @vol2}  AnyCase
-#action {* pushes you into the water*} {play  @vol2}  AnyCase
-#action {*crashes to the water with a splash*} {play  @vol2}  AnyCase
-#action {*takes a deep breath and dives underwater as he fades out of view*} {play  @vol2}  AnyCase
-#action {*emerges from under the water and takes a deep breath*} {play  @vol2}  AnyCase
-#action {*a * diving toy into the pool and it sinks to the bottom*} {play  @vol2}  AnyCase
-#action {*deep into the pool to fetch a * diving toy*} {play  @vol2}  AnyCase
-#action {*jumps off the board and hits the water with a splash*} {play  @vol2}  AnyCase
-#action {You neatly shuffle a deck of classic Assault cards and set them down as you wait for the second player*} {play  @vol2}  AnyCase
-#action {*neatly stacks a deck of classic Assault cards and waits patiently for another player to arrive*} {play  @vol2}  AnyCase
-#action {You wind up and send a ball down the lane*} {play General/Misc/skeeballrolls.wav  AnyCase
-#action {Game over.  Your final score is*} {play  @vol2}  AnyCase
-#action {You press a button on * blender and watch as the contents are blended together into a delicious concoction of*} {play General/Misc/blender.wav  AnyCase
-#action {You open * refrigerator*} {play General/Misc/fridgeopen.wav} @vol2}  AnyCase
-#action {You close * refrigerator.} {play General/Misc/fridgeclose.wav} @vol2}  AnyCase
-#action {*into an empty*} {play  @vol2}  AnyCase
-#action {you clink glasses with *} {play  @vol2}  AnyCase
-#action {* clinks glasses with you*} {play  @vol2}  AnyCase
-#action {Sensing adequate kindling, a bright, warm fire erupts inside*} {play General/Misc/fireplace.wav  AnyCase
-#action {you open a bottle*} {play General/Misc/openbottle.wav  AnyCase
-#action {You begin to feed * a sucking sound as*} {#if {"$socials" == "true"}{play baby/babyeats.wav}
-#action {*you splash *}  {play  @vol2} AnyCase
-#action {*splashes you*}  {play  @vol2} AnyCase
-#action {you open a * lockbox*} {play General/Misc/LockBoxOpen.wav  AnyCase
-#action {you close a * lockbox*} {play General/Misc/LockBoxClose.wav  AnyCase
-#action {You turn the water off*} {#pc 0 stop}  AnyCase
-#action {*turns the water off*} {#pc 0 stop}  AnyCase
-#action {You hear the soft, soothing sound of water flowing down the fountain and into the rocks at the bottom*} {play  @vol2}  AnyCase
-#action {A giant flame suddenly engulfs a * causing it to burn to a crisp*} {play General/Misc/fireplace.wav  AnyCase
-#action {*coos*} {#if {"$socials" == "true"}{play baby/babycoo.wav}
-#action {you kick off with your feet and*} {play General/Misc/swing.wav  AnyCase
-#action {*kicks off with * feet and*} {play General/Misc/swing.wav  AnyCase
-#action {The table beeps quietly as it resets*} {play airhocky/Beep.wav  AnyCase
-#action {*the puck down the center of the table*} {play  @vol2}  AnyCase
-#action {The puck slides into the goal with a quiet clinking sound*} {play airhocky/goal.wav  AnyCase
-#action {The puck bounces against the edge of the table slightly*} {play  @vol2}  AnyCase
-#action {you hit the puck*} {play  @vol2}  AnyCase
-#action {*hits the puck*} {play  @vol2}  AnyCase
-#action {*lines up a shot from*} {play  @vol2}  AnyCase
-#action {*sends the puck flying*} {play  @vol2}  AnyCase
-#action {With a gentle jolt, the ferry*} {play General/Misc/ferry.wav  AnyCase
-#action {You barely notice as the ferry makes contact with the dock and is securely tied in place*} {play General/Misc/ferrystop.wav  AnyCase
+#action {you carefully light a%*} {play General/Misc/candle.wav  }
+#action {%* starts crying loudly%*} {#if {"$socials" == "true"}{play baby/babycry%*4.wav}}
+#action {%*coos} {#if {"$socials" == "true"}{play baby/babycoo.wav}}
+#action {%*babbles%*} {#if {"$socials" == "true"}{play baby/babytalk%*2.wav}}
+#action {you jump in the pool and begin to swim%*} {play  @vol2}
+#action {you fall to the water with a splash%*} {play  @vol2}
+#action {you take a deep breath, dive underwater%*} {play  @vol2}
+#action {You emerge from underwater and take a deep breath%*} {play  @vol2}
+#action {With a strong jump, you dive into the water with a big splash%*} {play  @vol2}
+#action {you push %* into the water%*} {play  @vol2}
+#action {%* pushes you into the water%*} {play  @vol2}
+#action {%*crashes to the water with a splash%*} {play  @vol2}
+#action {%*takes a deep breath and dives underwater as he fades out of view%*} {play  @vol2}
+#action {%*emerges from under the water and takes a deep breath%*} {play  @vol2}
+#action {%*a %* diving toy into the pool and it sinks to the bottom%*} {play  @vol2}
+#action {%*deep into the pool to fetch a %* diving toy%*} {play  @vol2}
+#action {%*jumps off the board and hits the water with a splash%*} {play  @vol2}
+#action {You neatly shuffle a deck of classic Assault cards and set them down as you wait for the second player%*} {play  @vol2}
+#action {%*neatly stacks a deck of classic Assault cards and waits patiently for another player to arrive%*} {play  @vol2}
+#action {You wind up and send a ball down the lane%*} {play General/Misc/skeeballrolls.wav  }
+#action {Game over.  Your final score is%*} {play  @vol2}
+#action {You press a button on %* blender and watch as the contents are blended together into a delicious concoction of%*} {play General/Misc/blender.wav  }
+#action {You open %* refrigerator%*} {play General/Misc/fridgeopen.wav} 
+#action {You close %* refrigerator.} {play General/Misc/fridgeclose.wav} 
+#action {%*into an empty%*} {play  @vol2}
+#action {you clink glasses with %*} {play  @vol2}
+#action {%* clinks glasses with you%*} {play  @vol2}
+#action {Sensing adequate kindling, a bright, warm fire erupts inside%*} {play General/Misc/fireplace.wav  }
+#action {you open a bottle%*} {play General/Misc/openbottle.wav  }
+#action {You begin to feed %* a sucking sound as%*} {#if {"$socials" == "true"}{play baby/babyeats.wav}}
+#action {%*you splash %*}  {play  @vol2}
+#action {%*splashes you%*}  {play  @vol2}
+#action {you open a %* lockbox%*} {play General/Misc/LockBoxOpen.wav  }
+#action {you close a %* lockbox%*} {play General/Misc/LockBoxClose.wav  }
+#action {You turn the water off%*} {#pc 0 stop}
+#action {%*turns the water off%*} {#pc 0 stop}
+#action {You hear the soft, soothing sound of water flowing down the fountain and into the rocks at the bottom%*} {play  @vol2}
+#action {A giant flame suddenly engulfs a %* causing it to burn to a crisp%*} {play General/Misc/fireplace.wav  }
+#action {%*coos%*} {#if {"$socials" == "true"}{play baby/babycoo.wav}}
+#action {you kick off with your feet and%*} {play General/Misc/swing.wav  }
+#action {%*kicks off with %* feet and%*} {play General/Misc/swing.wav  }
+#action {The table beeps quietly as it resets%*} {play airhocky/Beep.wav  }
+#action {%*the puck down the center of the table%*} {play  @vol2}
+#action {The puck slides into the goal with a quiet clinking sound%*} {play airhocky/goal.wav  }
+#action {The puck bounces against the edge of the table slightly%*} {play  @vol2}
+#action {you hit the puck%*} {play  @vol2}
+#action {%*hits the puck%*} {play  @vol2}
+#action {%*lines up a shot from%*} {play  @vol2}
+#action {%*sends the puck flying%*} {play  @vol2}
+#action {With a gentle jolt, the ferry%*} {play General/Misc/ferry.wav  }
+#action {You barely notice as the ferry makes contact with the dock and is securely tied in place%*} {play General/Misc/ferrystop.wav  }
 
-#action {A * of * slams into your *, drenching it in *!} {play General/Socials/slimemachinehit.wav 
+#action {A %* of %* slams into your %*, drenching it in %*!} {play General/Socials/slimemachinehit.wav }
 
-#action {A * of * slams into *, drenching it in *!} {play General/Socials/slimemachinehit.wav 
+#action {A %* of %* slams into %*, drenching it in %*!} {play General/Socials/slimemachinehit.wav }
 
-#action {You smash your foot into a * of * and it forms a large puddle.} {play General/Socials/slimepuddlesplat.wav 
+#action {You smash your foot into a %* of %* and it forms a large puddle.} {play General/Socials/slimepuddlesplat.wav }
 
 
-#action {You smash a * of * into your face, where it bursts and covers you in *!} {play General/Socials/slimepuddlesplat.wav 
+#action {You smash a %* of %* into your face, where it bursts and covers you in %*!} {play General/Socials/slimepuddlesplat.wav }
 
-#action {You glance at * for a moment before deciding that it's hardly worth keeping. With that in mind, you hurl it to the ground, where it shatters into several pieces.} {play General/Socials/breakingglass*5.wav 
+#action {You glance at %* for a moment before deciding that it's hardly worth keeping. With that in mind, you hurl it to the ground, where it shatters into several pieces.} {play General/Socials/breakingglass%*5.wav }
 
-#action {* glances at * for a moment before deciding that it's hardly worth keeping. With that in mind, * hurls it to the ground, where it shatters into several pieces.*} {play General/Socials/breakingglass*5.wav 
+#action {%* glances at %* for a moment before deciding that it's hardly worth keeping. With that in mind, %* hurls it to the ground, where it shatters into several pieces.%*} {play General/Socials/breakingglass%*5.wav }
 
-#action {* carefully attach* worm to * fishing pole*} {play fishworm.wav 
+#action {%* carefully attach%* worm to %* fishing pole%*} {play fishworm.wav }
 
-#action {*suddenly glances around, seemingly rather embarrassed that the fish got away.*} {play fishescape.wav 
+#action {%*suddenly glances around, seemingly rather embarrassed that the fish got away.%*} {play fishescape.wav }
 
-#action {*You feel a mighty lurch and realize in disappointment that the fish got away.*} {play fishescape.wav 
+#action {%*You feel a mighty lurch and realize in disappointment that the fish got away.%*} {play fishescape.wav }
 
-#action {* lazily cast* line of * into the water*} {play fishcast.wav 
+#action {%* lazily cast%* line of %* into the water%*} {play fishcast.wav }
 
-#action {*carefully removes*from*fishing pole*} {play fishcatch.wav 
+#action {%*carefully removes%*from%*fishing pole%*} {play fishcatch.wav }
 
-#action {* suddenly begins to reel * line in*} {play fishreel.wav 
+#action {%* suddenly begins to reel %* line in%*} {play fishreel.wav }
 
-#action {*you carefully remove * from your line*} {play fishcatch.wav  AnyCase
+#action {%*you carefully remove %* from your line%*} {play fishcatch.wav  }
 
-#action {*You suddenly feel a mighty tug on the end of your line.*} {play fishreel.wav */
+#action {%*You suddenly feel a mighty tug on the end of your line.%*} {play fishreel.wav }
 
 #NOP logging
 #macro {\eOS}
